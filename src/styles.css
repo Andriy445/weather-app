@@ -9,7 +9,7 @@ body{
     height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    background-color:#222831;
+    background-color:#1E2022;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -21,7 +21,7 @@ body{
     height: 80vh;
     border-radius:1.2rem;
     box-shadow: 10px 10px 10px rgb(0,0,0,0.2);
-    background-color:#393E46
+    background-color:#52616B
 }
 
 .upper-info{
@@ -53,13 +53,13 @@ body{
 }
 
 .location{
-    color:#393E46;
+    color:#1E2022;
     text-align: center;
     font-size: 2rem
 }
 
 .temperature{
-    color:#393E46;
+    color:#1E2022;
     font-size: 3rem;
     text-align: center;
     font-weight: 900;
@@ -67,7 +67,7 @@ body{
 
 .more-info-container{
     flex:1;
-    background-color:#EEEEEE;
+    background-color:#F0F5F9;
     border-bottom-left-radius: 1.2em;
     border-bottom-right-radius: 1.2em;
     margin-top: 1em;
@@ -77,11 +77,12 @@ body{
 }
 
 .info-block-label img{
-    width: 2em
+    width: 2.5em;
+    background-color: transparent;
 }
 
 .more-info{
-    color:#EEEEEE
+    color:#F0F5F9
 }
 
 .info-block{
@@ -117,4 +118,19 @@ body{
     padding: 1em;
     display: flex;
     flex-direction: column;
+}
+
+.search{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.search input{
+    padding: 1em;
+    border-radius: 1em;
+    outline: none;
+    border: none;
+    background-color: #F0F5F9;
+    text-align: center;
+    
 }
