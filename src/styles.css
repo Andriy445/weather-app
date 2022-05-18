@@ -1,1 +1,120 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color:#222831;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.container{
+    width: 400px;
+    height: 80vh;
+    border-radius:1.2rem;
+    box-shadow: 10px 10px 10px rgb(0,0,0,0.2);
+    background-color:#393E46
+}
+
+.upper-info{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+}
+
+.upper-info img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.weather-data{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.location{
+    color:#393E46;
+    text-align: center;
+    font-size: 2rem
+}
+
+.temperature{
+    color:#393E46;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.more-info-container{
+    flex:1;
+    background-color:#EEEEEE;
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.info-block-label img{
+    width: 2em
+}
+
+.more-info{
+    color:#EEEEEE
+}
+
+.info-block{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-block-label{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center
+}
+
+.info-block-label span{
+    color: #393E46;;
+    font-size: .8em;
+}
+
+.info-block-value{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.lower-info{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
